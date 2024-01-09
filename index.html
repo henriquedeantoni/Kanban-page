@@ -1,28 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="kanban">
-        <div class="column">
-            <div class="item" draggable="true">Card 01</div>
-            <div class="item" draggable="true">Card 02</div>
-        </div>
-        <div class="column">
-            <div class="item" draggable="true">Card 03</div>
-            <div class="item" draggable="true">Card 04</div>
-        </div>
-        <div class="column">
-            <div class="item" draggable="true">Card 05</div>
-            <div class="item" draggable="true">Card 06</div>
+    <div class="header-section">
+        <p>To do List</p>
+    </div>
+    <div class="bottom-section">
+        <div class="kanban">
+
+            <div class="column">
+                <div class="column-title"><p class="title">To do</p></div>            
+                <div class="item" draggable="true">Card 01</div>
+                <div class="item" draggable="true">Card 02</div>
+            </div>
+            <div class="column">
+                <div class="column-title"><p class="title">In Progress</p></div>
+                <div class="item" draggable="true">Card 03</div>
+                <div class="item" draggable="true">Card 04</div>
+            </div>
+            <div class="column">
+                <div class="column-title"><p class="title">Done</p></div>
+                <div class="item" draggable="true">Card 05</div>
+                <div class="item" draggable="true">Card 06</div>
+            </div>
         </div>
     </div>
-    
+
+
 </body>
 
 <script src="./script.js"></script>
+
 </html>
