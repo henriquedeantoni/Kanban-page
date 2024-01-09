@@ -4,6 +4,15 @@
     box-sizing: border-box;
     font-size: 30px;
 }
+.header-section{
+    background-color: rgb(196, 250, 232);
+    height: 100px;
+}
+
+.bottom-section{
+    background-color: rgb(232, 238, 236);
+    height: 80%
+}
 
 .kanban{
     display: flex;
@@ -21,6 +30,17 @@
     background-color: aquamarine;
     min-width: 200px;
     border-radius: 5px;
+}
+
+.column-title{
+    background-color: rgb(235, 179, 179);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.title{
+    font-size: 30px;
+    color: rgb(89, 97, 94); 
 }
 
 .item{
