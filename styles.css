@@ -16,10 +16,12 @@
 
 .kanban{
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     min-height: 400px;
     gap: 10px;
     padding: 10px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
 }
 
 .column{
