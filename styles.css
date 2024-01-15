@@ -4,14 +4,23 @@
     box-sizing: border-box;
     font-size: 20px;
 }
+body{
+    height: 100vh;
+    position: absolute;
+}
+h1{
+    font-size: 40px;
+}
 .header-section{
     background-color: rgb(196, 250, 232);
-    height: 100px;
+    height: 10vh;
+    text-align: center;
+    padding: 10px;
 }
 
 .bottom-section{
     background-color: rgb(232, 238, 236);
-    height: 80%;
+    height: 90vh;
     display: flex;
 }
 
@@ -20,18 +29,17 @@
     margin: 12px 15px 12px 15px;    
 }
 
-
 .left-side-div{
     display: flex;
     flex-direction: column;  
-    width: 300px;
+    width: 400px;
     background:  rgb(246, 248, 247);
 }
 
 .kanban{
     display: flex;
     /*justify-content: center;*/
-    min-height: 400px;
+    height: 400px;
     gap: 10px;
     padding: 10px;
     display: grid;
@@ -46,10 +54,12 @@
     background-color: aquamarine;
     min-width: 200px;
     border-radius: 5px;
+    height: 78vh;
 }
 
 .column-title{
     background-color: rgb(235, 179, 179);
+    height: 70px;
     padding: 10px;
     border-radius: 5px;
 }
@@ -66,6 +76,7 @@
     padding: 10px;
     border-radius: 5px;
     height: 165px;
+    text-align: center;
 }
 
 .dragging {
