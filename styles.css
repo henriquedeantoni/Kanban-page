@@ -13,29 +13,36 @@ h1{
 }
 .header-section{
     background-color: rgb(196, 250, 232);
-    height: 10vh;
+    height: 15vh;
     text-align: center;
     padding: 10px;
 }
-
 .bottom-section{
     background-color: rgb(232, 238, 236);
     height: 90vh;
     display: flex;
 }
-
 .menu-div{
     background-color: rgb(211, 218, 215);
-    margin: 12px 15px 12px 15px;    
+    margin: 12px 15px 12px 15px;
+    height: 15vh;
+    padding: 5px; 
 }
-
+.search{
+    padding-right: 15px;
+    background: url("./assets/search-icon.png") no-repeat left;
+    background-size: 25px;
+}
+.titleAside{
+    text-align: left;
+    font-size: 20px;
+}
 .left-side-div{
     display: flex;
     flex-direction: column;  
     width: 400px;
     background:  rgb(246, 248, 247);
 }
-
 .kanban{
     display: flex;
     /*justify-content: center;*/
@@ -45,7 +52,6 @@ h1{
     display: grid;
     grid-template-columns: 300px 300px 300px;
 }
-
 .column{
     display: flex;
     flex-direction: column;
@@ -56,21 +62,18 @@ h1{
     border-radius: 5px;
     height: 78vh;
 }
-
 .column-title{
     background-color: rgb(235, 179, 179);
     height: 70px;
     padding: 10px;
     border-radius: 5px;
 }
-
 .title{
     font-size: 30px;
     color: rgb(89, 97, 94);
     margin: 0px;
     text-align: center;
 }
-
 .item{
     background-color: white;
     padding: 10px;
@@ -78,7 +81,6 @@ h1{
     height: 165px;
     text-align: center;
 }
-
 .dragging {
     opacity: 0.5;
 }
