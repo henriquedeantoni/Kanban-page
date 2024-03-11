@@ -36,3 +36,20 @@ function getNewPosition(column, posY){
     }
     return result;
 }
+
+createNewCard = () => {
+    
+    let initialHtml=`<div class="item" draggable="true">
+    <p>Example Task<br><br>If you want to change the status of task 
+    grab and drop to others columns next to.</p>
+</div>
+<div class="item" draggable="true">
+    <p>New Task<br><br></p>
+</div>          
+<div class="item" draggable="true">
+    <p>Create a new Task</p>
+    <br>
+    <button onClick={createNewCard}> Click here</button>
+</div> `
+
+}
