@@ -1,3 +1,7 @@
+const columns = document.querySelectorAll(".column");
+
+document.addEventListener("dragstart", (element)=>{
+    element.target.classList.add("dragging");
 });
 
 document.addEventListener("dragend", (element)=>{
